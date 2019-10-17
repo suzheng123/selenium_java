@@ -12,9 +12,7 @@ public class openbrowser {
 	
 	public static void main(String[] args) {
 		
-//		System.setProperty("webdreiver.chrome.driver", "/Users/JacZh/desktop/resources/selenium_java/selenium_java2/drivers");
-//		driver = new ChromeDriver();
-		System.setProperty("webdreiver.firefox.driver", "/Users/JacZh/desktop/resources/selenium_java/selenium_java2/drivers/geckodriver.exe");
+		System.setProperty("webdriver.firefox.driver", "/Users/JacZh/desktop/resources/selenium_java/selenium_java2/drivers/geckodriver.exe");
 		driver = new FirefoxDriver();
 		
 		
